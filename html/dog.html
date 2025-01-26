@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留言板</title>
+    <link rel="shortcut icon" type="image/x-icon" href="qq.jpg" />
+    <link rel="stylesheet" href="ppt.css">
+</head>
+<body>
+    <header class="navbar">
+        <h1>留言板</h1>
+        <nav>
+            <a href="index.html">首頁</a>
+            
+        </nav>
+    </header>
+
+    <main class="container">
+        <!-- 留言表單區域 -->
+        <section class="form-section">
+            <h2>留下您的留言</h2>
+            <form action="" method="POST">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="username" required>
+                
+                <label for="email">電子郵件：</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">留言內容：</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">提交留言</button>
+            </form>
+        </section>
+        
+        <!-- 留言顯示區域 -->
+        <section class="comments-section">
+            <h2>留言區</h2>
+            
+                    
+                
+                <p>目前沒有留言。</p>
+            
+        </section>
+    </main>
+
+    
+</body>
+</html>
